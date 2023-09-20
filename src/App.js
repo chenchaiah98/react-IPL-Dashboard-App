@@ -1,6 +1,16 @@
+import {Route, Switch} from 'react-router-dom'
+
 import Home from './components/Home/index'
+// import NotFound from './components/NotFound/index'
+import TeamMatches from './components/TeamMatches/index'
 import './App.css'
 
-const App = () => <Home />
+const App = () => (
+  <Switch>
+    <Route exact path="/" component={Home} />
+    {/* <Route component={TeamMatches} /> */}
+    <Route path="/ipl/:id" component={TeamMatches} />
+  </Switch>
+)
 
 export default App

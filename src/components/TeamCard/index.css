@@ -11,7 +11,7 @@
 .main-teamCard-container {
   min-width: 200px;
   width: 300px;
-  max-width: 28%;
+  max-width: 100%;
   height: 150px;
   border: 1px solid #ffffff;
   padding: 10px 20px;
