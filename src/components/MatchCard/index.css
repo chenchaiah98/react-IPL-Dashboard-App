@@ -1,1 +1,40 @@
 /* Write your CSS here */
+.matchCard-container {
+  width: 80%;
+  font-family: 'Bree Serif';
+}
+.matchCard-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-align: center;
+  color: #ffffff;
+}
+.matchCard-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 290px;
+  background-color: #1e293b;
+  margin: 10px;
+  height: 300px;
+}
+.matchCard-item-image {
+  width: 80px;
+}
+.matchCard-item-container img {
+  width: 100%;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.matchStatus {
+  font-weight: 700;
+}

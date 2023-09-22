@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,15 @@
 }
 .Home-main-heading {
   color: #ffffff;
+}
+.home-logo-container {
+  display: flex;
+  width: 200px;
+}
+.home-logo-container img {
+  width: 100%;
+  margin-right: 20px;
+  object-fit: contain;
 }
 @media screen and (min-width: 768px) {
   .home-bg-container {

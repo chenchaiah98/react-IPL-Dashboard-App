@@ -31,7 +31,6 @@ class TeamMatches extends Component {
 
     return (
       <div className="blog-list-container">
-        {console.log(blogsData)}
         {isLoading ? (
           <div data-testid="loader">
             <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
@@ -39,7 +38,7 @@ class TeamMatches extends Component {
         ) : (
           <div className="match-bg">
             <div>
-              <img src={blogsData.team_banner_url} alt="" />
+              <img src={blogsData.team_banner_url} alt="team banner" />
             </div>
             <LatestMatch apiData={blogsData} />
           </div>

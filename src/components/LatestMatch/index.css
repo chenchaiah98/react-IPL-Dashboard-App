@@ -1,4 +1,24 @@
 /* Write your CSS here */
+.LatestMatch-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 30px;
+  font-family: 'bree sarif';
+  width: 100%;
+}
+.LatestMatch-details-container div {
+  width: 350px;
+}
 
-.latest-match-Deatils {
+.LatestMatch-details-image-container {
+  width: 300px;
+}
+.LatestMatch-details-image-container img {
+  width: 100%;
+}
+.LatestMatch-details-innings {
+  text-align: end;
 }
